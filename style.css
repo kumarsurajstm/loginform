@@ -1,0 +1,52 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    }
+    
+    form {
+    border: 8px  solid #00000091;
+    box-shadow: 2px 2px 2px;
+    background-image: url(biking.jpg);
+    
+    }
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid rgb(174, 173, 173);
+    box-sizing: border-box;
+    }
+    button {
+    background-color: rgb(13, 13, 13);
+    color: rgb(254, 254, 255);
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: grabbing;
+    width: 100%;
+    font-size: larger;
+    }
+    h1 {
+    text-align:center;
+    color: rgb(0, 0, 0);
+    }
+    button:hover {
+    opacity: 0.8;
+    }
+    .formcontainer {
+    text-align: left;
+    margin: 24px 50px 12px;
+    }
+    .container {
+    padding: 16px 0;
+    text-align:left;
+    }
+    span.psw {
+    float: right;
+    padding-top: 0;
+    padding-right: 15px;
+    }
+  
